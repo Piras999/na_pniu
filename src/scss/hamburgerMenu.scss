@@ -32,14 +32,14 @@
   
   .menu-tab.active{
     // right: 345px;
-    right: 10rem;
+    // right: 10rem;
     transition: all 600ms ease-in-out;
     // background-color: rgba(255,255,255,0.2);
     
       #one{
         transform: translateY(9px) rotate(-135deg);
         transition: all .6s ease-in-out;
-        background-color: red;
+        background-color: white;
       }
       
       #two{
@@ -50,7 +50,7 @@
       #three{
         transform: translateY(-9px) rotate(-45deg);
         transition: all .6s ease-in-out;
-        background-color: red;
+        background-color: white;
       }
   }
   
@@ -60,11 +60,11 @@
     height: 100vh;
     position: fixed;
     z-index: 10;
-    top: 1rem;
     transition: all .6s ease-in-out;
     
     nav{
       ul{
+        margin-top: 3rem;
         li{
           height: 70px;
           text-align: center;
@@ -72,7 +72,7 @@
           transition: all .5s ease;
           
           &:hover{
-            background-color: red;
+            background-color: black;
             transition: all .5s ease;
           }
   
@@ -88,7 +88,7 @@
     }/*end of nav*/
   }/*end of menu-hide*/
   .menu-hide.show{
-    right: 0px;
+    right: 0;
     background-color: rgba(255,255,255,0.2);
     transition: all .6s ease-in-out;
   }
